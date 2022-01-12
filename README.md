@@ -1,13 +1,7 @@
 # hellostatic-builtin
 
-There's not a lot to this example because the Flyctl builtin static builder does it all for you:
+There's not a lot to this example because `fly launch` sets up your static site deployment for you.
 
-* flyctl init
-  * pick an app name
-  * pick an org
-  * select builtin static for a builder
-  * hit return for the default port
-* flyctl deploy
-* flyctl open
+Just run `fly launch`. You'll be prompted for a target region. `flyctl` generates a `Dockerfile` and optionally starts a deployment.
 
 Enjoy your site!

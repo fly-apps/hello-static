@@ -1,7 +1,5 @@
-# hellostatic-builtin
+# hello-static
 
-There's not a lot to this example because `fly launch` sets up your static site deployment for you.
+An example repository you can use to deploy a static site on Fly.io, using Pierre Zemb's lightweight [goStatic web server](https://github.com/PierreZ/goStatic).
 
-Just run `fly launch`. You'll be prompted for a target region. `flyctl` generates a `Dockerfile` and optionally starts a deployment.
-
-Enjoy your site!
+Used by the guide at https://fly.io/docs/getting-started/static/

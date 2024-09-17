@@ -1,2 +1,3 @@
-FROM pierrezemb/gostatic
-COPY ./public/ /srv/http/
+FROM nginx:alpine
+
+COPY public /usr/share/nginx/html
